@@ -1,0 +1,29 @@
+.banner {
+    background-color:#1c744c ;
+}
+.menuu {
+    display: flex;
+    text-decoration:none;
+    padding: 0px 15px;
+    color: white;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+.barra {
+    color: white;
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+}   
+
+a:hover {
+    background-color: beige;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    
+}
