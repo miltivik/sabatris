@@ -34,4 +34,19 @@ a:hover {
 
 }
 
+.pagina-1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
 
+.stargreen {
+    
+    margin:auto;
+    padding:80% 0 0 0 ;
+}
+.reserva {
+    margin: auto;
+    
+}
