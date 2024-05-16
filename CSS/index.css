@@ -8,22 +8,30 @@
     color: white;
     justify-content: space-around;
     justify-items: center;
+        font-family: "Satoshi-variable",sherif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
     
 }
 .barra {
     color: white;
     text-decoration: none;
+    margin: 0 20px;
+    padding: 2px 12px;
 }
 body{
     margin: 0px;
 }   
 
 a:hover {
-    background-color: beige;
+    background-color:   #248f60 ;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    
+
 }
+
+
