@@ -24,16 +24,6 @@ body{
     margin: 0px;
 }   
 
-a:hover {
-    background-color:   #248f60 ;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-
-}
-
 .pagina-1 {
     display: flex;
     justify-content: center;
