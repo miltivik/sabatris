@@ -26,3 +26,13 @@
   font-weight: 470;
   font-style: normal;
 }
+
+.descripcion-1 {
+  
+  font-family: 'Neco-Variable';
+  src: url('../fonts/Neco-Variable.woff2') format('woff2'),
+       url('../fonts/Neco-Variable.woff') format('woff'),
+       url('../fonts/Neco-Variable.ttf') format('truetype');
+  font-weight: 470;
+  font-style: normal;
+}
