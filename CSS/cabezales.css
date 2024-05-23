@@ -1,5 +1,6 @@
 .banner {
     background-color:#1c744c ;
+    margin
 }
 .menuu {
     display: flex;
@@ -12,7 +13,6 @@
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;
-    
 }
 .barra {
     color: white;
@@ -188,4 +188,27 @@ body{
     margin: auto;
     padding-left: 28vh;
     padding-top: 25vh;
+}
+.login-icon {
+    display: flex;
+    margin: 0;
+}
+.icon-login {
+    display: flex;
+    height: 50px;
+    justify-content:space-evenly;
+    align-content: space-evenly;
+    margin: 0;
+    padding: 0 0 0 0;
+}
+
+.content {
+    display: flex;
+    margin:0 0 0 100vh ;
+    justify-content: end;
+ 
+}
+.menu-1 {
+    display: flex;
+
 }
