@@ -216,3 +216,8 @@ body{
     display: flex;
     box-sizing: border-box;
 }
+@media(min-width: 1366px) {
+    .barra {
+        padding: 4px 8px 4px 8px;
+    }
+}
