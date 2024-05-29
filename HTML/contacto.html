@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
     <link rel="stylesheet" href="/CSS/cabezales.css">
     <link rel="stylesheet" href="/CSS/contacto.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/FUENTES/Neco_Complete/Fonts/WEB/css/neco.css">
 </head>
 <body>  
     <header class="menuu banner" >
@@ -77,23 +79,25 @@
         </article>
     </div>
     <div class="box">
-       <h2></h2>
+       <div class="contact-title">
+        <h2> Ponte en contacto con nosotros!</h2>
+       </div>
        <div class="form-box">
-        <form action="">
+        <form class="contact-left" action="">
             <div class="nombre-box">
-                <div><label for="">Nombre</label>
-                <input type="text" placeholder="Nombre" autocomplete="off" required name="" id="">
+                <div><label class="style" for="">Nombre</label>
+                <input type="text" placeholder="Nombre" class="contact-input" autocomplete="off" required name="" id="">
             </div>
                 <div class="email-box">
-                    <label for="">E-mail</label>
-                    <input type="text" name="" required placeholder="E-mail" autocomplete="off" id=""></div>
+                    <label class="style" for="">E-mail</label>
+                    <input type="text" name="" class="contact-input" required placeholder="E-mail" autocomplete="off" id=""></div>
                 <div class="consulta-box">
-                    <label for="">Consulta</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <label class="style" for="">Consulta</label>
+                    <textarea class="contact-input contact-input-textarea " name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
                 </div>
             </div>
-            <div>
-            <button>Enviar</button>
+            <div >
+            <button class="boton-box">Enviar</button>
             </div>
         </form>
        </div>
